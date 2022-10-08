@@ -8,13 +8,13 @@ if __name__ == '__main__':
     print("==============================")
     print("INPUT")
     print("==============================")
-    # while True:
-    #     filename = input("Please specify the directory location of the project code:")
-    #     # Check directory exists
-    #     if os.path.isdir(filename):
-    #         break
-    #     print("Oops, sorry that file does not exist or isn't a directory! Try again...")
-    filename = "df-testing"
+    while True:
+        filename = input("Please specify the directory location of the project code:")
+        # Check directory exists
+        if os.path.isdir(filename):
+            break
+        print("Oops, sorry that file does not exist or isn't a directory! Try again...")
+    # filename = "df-testing"
     # print(filename)
     if os.path.exists(filename + "_modified"):
         shutil.rmtree(filename + "_modified")
