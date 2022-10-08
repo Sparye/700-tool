@@ -78,7 +78,7 @@ def modify_tree(tree,parentDir,fileName):
         keywordNode = ast.keyword()
         keywordNode.arg = 'index'
         keywordNode.value = ast.Constant(False)
-        callNode = ast.Call(attributeNode,[ast.Constant('benchmark_df_'+parentDir+'.csv')],[keywordNode])
+        callNode = ast.Call(attributeNode,[ast.Constant(fileName[:-3]+'_benchmark_'+parentDir+'.csv')],[keywordNode])
         exprNode = ast.Expr(callNode)
         return exprNode
 

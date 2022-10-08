@@ -10,3 +10,4 @@
 /history.txt
 /unique_models
 /__pycache__
+*.csv
