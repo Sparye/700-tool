@@ -1,0 +1,6 @@
+model_name,num_model_params,train_time,crash,eval_time,validation_accuracy,accuracy_history,loss_history,eval_accuracy,val_loss_history,val_accuracy_history
+10relu_adam_dropout_1_At_7_v1,-,-,"in user code:
+
+
+    ValueError: `rate` must be a scalar tensor or a float in the range [0, 1). Received: rate=1
+",-,-,-,-,-,-,-
