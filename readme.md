@@ -12,6 +12,7 @@ Put one deep learning program for comparison into df-testing/v1.
 Put the other program for comparison into df-testing/v2.
 
 ## Step 2
+Terminal change directory to `/ADDB_automation`
 Run `ADDB_automation.py`
 
 ## Step 3
@@ -27,6 +28,7 @@ Run the deep learning programs in `df-testing_modified/v1` and `df-testing_modif
 Move the generated csv files into `ADDB_testing/csvs` directory
 
 ## Step 7
+Terminal change directory to `/ADDB_testing`
 Run `ADDB_testing.py`
 
 ## Step 8 (Optional)
